@@ -26,7 +26,7 @@ const HireMeModal = ({ onClose }: { onClose: () => void }) => {
   };
   return (
     <div className='fixed inset-0 flex items-center justify-center'>
-      <div className='bg-filter fixed inset-0 z-20 h-full w-full bg-indigo-600 bg-opacity-50'></div>
+      <div className='bg-filter fixed inset-0 z-20 h-full w-full bg-black bg-opacity-50'></div>
       <div className='modal-wrapper z-30 flex items-center'>
         <div className='modal relative mx-5 max-h-screen max-w-md flex-row rounded-lg bg-white shadow-lg md:max-w-xl lg:max-w-xl xl:max-w-xl'>
           <div className='modal-header border-ternary-light flex justify-between gap-10 border-b p-5'>
