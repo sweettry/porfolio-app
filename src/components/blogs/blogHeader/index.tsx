@@ -20,7 +20,7 @@ const BlogHeader: FunctionComponent<Props> = ({ blog }) => {
                   layout='fill'
                   objectFit='cover'
                   className='rounded-full'
-                  src={blog.authorImage}
+                  src={blog.avatar || ''}
                   alt=''
                 />
               </div>

@@ -18,20 +18,20 @@ const Home: NextPage<Props> = ({ blogs, portfolios }) => {
   return (
     <BaseLayout>
       <h2 className='text-2xl font-bold tracking-tight text-gray-900'>
+        Projects
+        <Link className='ml-1 text-sm text-indigo-600' href='/portfolios'>
+          (See All)
+        </Link>
+      </h2>
+      <PortfolioList portfolios={portfolios} />
+      <br></br>
+      <h2 className='text-2xl font-bold tracking-tight text-gray-900'>
         Newest Blogs
         <Link className='ml-1 text-sm text-indigo-600' href='/blogs'>
           (See All)
         </Link>
       </h2>
       <BlogList blogs={blogs} />
-      <br></br>
-      <h2 className='text-2xl font-bold tracking-tight text-gray-900'>
-        Portfolios
-        <Link className='ml-1 text-sm text-indigo-600' href='/portfolios'>
-          (See All)
-        </Link>
-      </h2>
-      <PortfolioList portfolios={portfolios} />
     </BaseLayout>
   );
 };

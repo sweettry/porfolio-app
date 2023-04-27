@@ -4,7 +4,7 @@ import { navigation } from '../navbar/navigation';
 const socialLinks = [
   {
     name: 'Facebook',
-    href: 'https://www.facebook.com/eincodepro',
+    href: 'https://www.facebook.com/call.dmitry',
     icon: (props: any) => (
       <svg fill='currentColor' viewBox='0 0 24 24' {...props}>
         <path
@@ -15,27 +15,10 @@ const socialLinks = [
       </svg>
     ),
   },
-  {
-    name: 'Youtube',
-    href: 'https://www.youtube.com/c/Eincode',
-    icon: (props: any) => (
-      <svg fill='currentColor' viewBox='0 0 576 512' {...props}>
-        <path d='M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z' />
-      </svg>
-    ),
-  },
-  {
-    name: 'Twitter',
-    href: 'https://twitter.com/filip_jerga',
-    icon: (props: any) => (
-      <svg fill='currentColor' viewBox='0 0 24 24' {...props}>
-        <path d='M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84' />
-      </svg>
-    ),
-  },
+
   {
     name: 'GitHub',
-    href: 'https://github.com/Jerga99',
+    href: 'https://github.com/sweettry',
     icon: (props: any) => (
       <svg fill='currentColor' viewBox='0 0 24 24' {...props}>
         <path
@@ -53,7 +36,7 @@ function Copyright() {
     <>
       &copy;
       <Link color='inherit' href='/'>
-        XY
+        Dmitry Sevryukov
       </Link>{' '}
       {new Date().getFullYear()}
     </>

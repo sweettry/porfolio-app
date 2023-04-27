@@ -9,7 +9,7 @@ import { ContentSearch } from '@components/search';
 const Navbar = () => {
   return (
     <>
-      <svg
+      {/* <svg
         className='absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block'
         fill='currentColor'
         viewBox='0 0 100 100'
@@ -17,8 +17,7 @@ const Navbar = () => {
         aria-hidden='true'
       >
         <polygon points='50,0 100,0 50,100 0,100' />
-      </svg>
-
+      </svg> */}
       {/* NAVIGATION START */}
       <Popover>
         <div className='relative px-4 pt-6 sm:px-6 lg:px-8'>
@@ -31,11 +30,11 @@ const Navbar = () => {
                 <Link href='/'>
                   <span className='sr-only'>Your Company</span>
                   <Image
-                    width={30}
+                    width={200}
                     height={30}
-                    alt='Your Company'
-                    className='h-8 w-auto sm:h-10'
-                    src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
+                    alt='Dmitry Sweettree Sevryukov Logo'
+                    className='h-3 w-auto sm:h-10'
+                    src='/sweettreat-logo.svg'
                   />
                 </Link>
                 <div className='-mr-2 flex items-center md:hidden'>
@@ -49,7 +48,7 @@ const Navbar = () => {
             <div className='hidden md:ml-10 md:block md:space-x-8 md:pr-4'>
               {navigation.map((item) => (
                 <Link
-                  className='font-medium text-gray-500 hover:text-gray-900'
+                  className='font-mono font-semibold text-black hover:text-gray-500'
                   key={item.name}
                   href={item.href}
                 >
